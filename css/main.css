@@ -1,0 +1,33 @@
+.board {
+    border-spacing: o;
+    border-collapse: collapse;
+}
+
+.board .white {
+    background: white;
+}
+
+.board .black {
+    background: black;
+}
+
+.board td {
+    border: 5px solid black;
+}
+
+.board td:hover {
+    background-color: yellow;
+    transition: 3s;
+}
+
+.board th {
+    padding: 30px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+
+
